@@ -1,3 +1,19 @@
+/**
+  * Universidad de La Laguna
+  * Escuela Superior de Ingeniería y Tecnología
+  * Grado en Ingeniería Informática
+  * Informática Básica 2023-2024
+  *
+  * @file funciton-example.cc
+  * @author Adriel Reyes Suárez alu0101640136@ull.edu.es
+  * @date Nov 1 2023
+  * @software license https://www.gnu.org/licenses/gpl-3.0.html
+  * @brief The program returns the result of the function "MathFunction"
+  * @bug There are no known bugs
+  * 
+  */
+
+
 #include <iostream>
 #include "check-correct-params.h"
 #include <cmath>
