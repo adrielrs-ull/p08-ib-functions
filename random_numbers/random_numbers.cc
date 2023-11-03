@@ -25,11 +25,16 @@ int RandomNumber(const int& min, const int& max) {
   return random_number;
 }
 
+int PrintRandomNumber(const int& min, const int& max) {
+  int resultado{RandomNumber(min, max)};
+  return resultado;
+}
+
 int main(int argc, char* argv[]) {
   if (CheckCorrectParameters(argc, argv, 3)) {
     int min{std::stoi(argv[1])};
     int max{std::stoi(argv[2])};
-    std::cout << RandomNumber(min, max) << std::endl;   
+    std::cout << PrintRandomNumber(min, max) << std::endl;   
   } else {
     std::cout << "Wrong Input" << std::endl;
   }
