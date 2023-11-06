@@ -1,0 +1,36 @@
+\hypertarget{floating-point_8cc}{}\doxysection{floating-\/point.cc File Reference}
+\label{floating-point_8cc}\index{floating-\/point.cc@{floating-\/point.cc}}
+
+
+The program returns wheter the parameters are equal or not.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}check-\/correct-\/params.\+h\char`\"{}}\newline
+Include dependency graph for floating-\/point.cc\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{floating-point_8cc_ad20249fb3d725c012a4ce84d9338ecab}\label{floating-point_8cc_ad20249fb3d725c012a4ce84d9338ecab}} 
+bool {\bfseries Are\+Equal} (const double number1, const double number2, const double epsilon=1e-\/7)
+\item 
+\mbox{\Hypertarget{floating-point_8cc_a0ddf1224851353fc92bfbff6f499fa97}\label{floating-point_8cc_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The program returns wheter the parameters are equal or not. 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica 2023-\/2024
+
+\begin{DoxyAuthor}{Author}
+Adriel Reyes Suárez \href{mailto:alu0101640136@ull.edu.es}{\texttt{ alu0101640136@ull.\+edu.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Nov 1 2023 @software license \href{https://www.gnu.org/licenses/gpl-3.0.html}{\texttt{ https\+://www.\+gnu.\+org/licenses/gpl-\/3.\+0.\+html}} 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]There are no known bugs\end{DoxyRefDesc}

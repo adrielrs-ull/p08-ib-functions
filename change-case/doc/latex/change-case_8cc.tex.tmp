@@ -1,0 +1,33 @@
+\hypertarget{change-case_8cc}{}\doxysection{change-\/case.cc File Reference}
+\label{change-case_8cc}\index{change-\/case.cc@{change-\/case.cc}}
+
+
+The program changes an uppercase letter to a lowercase letter.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}check-\/correct-\/params.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}upper-\/lower-\/case.\+h\char`\"{}}\newline
+Include dependency graph for change-\/case.cc\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{change-case_8cc_a0ddf1224851353fc92bfbff6f499fa97}\label{change-case_8cc_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The program changes an uppercase letter to a lowercase letter. 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica 2023-\/2024
+
+\begin{DoxyAuthor}{Author}
+Adriel Reyes Suárez \href{mailto:alu0101640136@ull.edu.es}{\texttt{ alu0101640136@ull.\+edu.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Nov 1 2023 @software license \href{https://www.gnu.org/licenses/gpl-3.0.html}{\texttt{ https\+://www.\+gnu.\+org/licenses/gpl-\/3.\+0.\+html}} 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]There are no known bugs\end{DoxyRefDesc}

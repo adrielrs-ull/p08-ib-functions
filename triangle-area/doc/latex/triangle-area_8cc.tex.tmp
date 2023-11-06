@@ -1,0 +1,40 @@
+\hypertarget{triangle-area_8cc}{}\doxysection{triangle-\/area.cc File Reference}
+\label{triangle-area_8cc}\index{triangle-\/area.cc@{triangle-\/area.cc}}
+
+
+The program returns the area of the triangle with sides lado1, lado2 and lado3.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include \char`\"{}check-\/correct-\/params.\+h\char`\"{}}\newline
+Include dependency graph for triangle-\/area.cc\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{triangle-area_8cc_ad0351c6b44d81d576368c0027b9c5e85}\label{triangle-area_8cc_ad0351c6b44d81d576368c0027b9c5e85}} 
+bool {\bfseries Is\+A\+Valid\+Triangle} (const double \&lado1, const double \&lado2, const double \&lado3)
+\item 
+\mbox{\Hypertarget{triangle-area_8cc_ac4bc93b475482b6bcc1b7272934616c7}\label{triangle-area_8cc_ac4bc93b475482b6bcc1b7272934616c7}} 
+double {\bfseries Heron\+Formula} (const double \&lado1, const double \&lado2, const double \&lado3)
+\item 
+\mbox{\Hypertarget{triangle-area_8cc_a0ddf1224851353fc92bfbff6f499fa97}\label{triangle-area_8cc_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The program returns the area of the triangle with sides lado1, lado2 and lado3. 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica 2023-\/2024
+
+\begin{DoxyAuthor}{Author}
+Adriel Reyes Suárez \href{mailto:alu0101640136@ull.edu.es}{\texttt{ alu0101640136@ull.\+edu.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Nov 1 2023 @software license \href{https://www.gnu.org/licenses/gpl-3.0.html}{\texttt{ https\+://www.\+gnu.\+org/licenses/gpl-\/3.\+0.\+html}} 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]There are no known bugs\end{DoxyRefDesc}
